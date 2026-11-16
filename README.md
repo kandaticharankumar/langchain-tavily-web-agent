@@ -15,4 +15,4 @@ An autonomous tool-calling AI agent built using **LangChain**, **Google Gemini (
 ## Setup
 1. Install dependencies: `pip install -U langchain-google-genai langchain-tavily`
 2. Set environment variables `GOOGLE_API_KEY` and `TAVILY_API_KEY`.
-3. Run `AGENTIC_AI_2.ipynb`.
+3. Run `AGENTIC_AI.ipynb`.
