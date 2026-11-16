@@ -22,15 +22,6 @@ User Query ──▶ LangChain Agent (Gemini 3.5 Flash Lite)
 - **Standard LLM Chain (`prompts | llm`):** *"I cannot provide today's AI tech news because I do not have access to real-time information or the internet. My knowledge cutoff is January 2025."*
 - **Tavily Web Search Agent (`create_agent`):** Autonomously queries live news sources and returns a structured summary of the top 10 current AI industry developments.
 
-## Tech Stack
-- **Language & Orchestration:** Python, LangChain (`langchain`, `langchain-google-genai`, `langchain-tavily`)
-- **LLM:** Google Gemini (`gemini-3.5-flash-lite`)
-- **Live Search Tool:** Tavily Search API
-
-## Setup & Execution
-1. Install dependencies: `pip install -r requirements.txt`
-2. Configure environment variables: `GOOGLE_API_KEY` and `TAVILY_API_KEY`
-3. Run `autonomous_research_agent.ipynb`
 
 
 ## Sample Output (Before vs. After Tool Calling)
@@ -62,3 +53,13 @@ Based on recent developments, here are 10 of the top AI tech news stories and tr
    explicitly to vetted security teams for threat-mitigation workflows.
 ... (summarized from top 4 real-time Tavily search results)
 ```
+
+## Tech Stack
+- **Language & Orchestration:** Python, LangChain (`langchain`, `langchain-google-genai`, `langchain-tavily`)
+- **LLM:** Google Gemini (`gemini-3.5-flash-lite`)
+- **Live Search Tool:** Tavily Search API
+
+## Setup & Execution
+1. Install dependencies: `pip install -r requirements.txt`
+2. Configure environment variables: `GOOGLE_API_KEY` and `TAVILY_API_KEY`
+3. Run `autonomous_research_agent.ipynb`
